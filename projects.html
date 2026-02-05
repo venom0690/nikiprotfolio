@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Projects by Nikita Dalvi - ImmuneAI Disease Prediction, Biodiversity Analysis, GenAI Invoice Generator and more ML projects.">
+    <meta name="keywords"
+        content="Machine Learning Projects, Flask Applications, TensorFlow, AI Projects, Python Projects">
+    <meta name="author" content="Nikita Dalvi">
+
+    <title>Projects - Nikita Dalvi</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Nikita Dalvi</a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-sun" id="themeIcon"></i>
+            </button>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="projects page-section" id="projects">
+        <div class="container">
+            <h1 class="page-title">Featured Projects</h1>
+            <p class="page-subtitle">A showcase of my work in machine learning, web development, and data analytics</p>
+
+            <!-- Featured Project -->
+            <div class="project-featured">
+                <div class="project-content">
+                    <span class="project-badge">Featured Project</span>
+                    <h3 class="project-title">ImmuneAI — Autoimmune Disease Prediction System</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Data Validation</span>
+                    </div>
+                    <p class="project-description">
+                        Built a production-style application supporting CSV ingestion, validation, processing, and
+                        prediction workflows. Implemented comprehensive data validation, error handling, and monitoring
+                        logic to ensure reliability and accuracy. Designed and executed extensive test cases, performed
+                        system testing and UAT, and maintained enterprise-style documentation for seamless deployment
+                        and maintenance.
+                    </p>
+                    <ul class="project-highlights">
+                        <li>Designed end-to-end ML pipeline with robust data validation</li>
+                        <li>Implemented error handling and monitoring systems</li>
+                        <li>Conducted comprehensive system testing and UAT</li>
+                        <li>Maintained enterprise-level documentation</li>
+                        <li>Built production-ready Flask API endpoints</li>
+                        <li>Optimized model performance for accuracy and speed</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="section-subtitle">Other Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h4 class="project-card-title">
+                        <i class="fas fa-leaf"></i>
+                        Biodiversity Analysis Using TensorFlow
+                    </h4>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">Computer Vision</span>
+                    </div>
+                    <p class="project-card-description">
+                        Built an SSD MobileNet V2 system for land cover detection with high accuracy. Created an
+                        interactive Streamlit dashboard providing real-time insights and visualizations. Improved model
+                        accuracy through iterative testing and hyperparameter tuning.
+                    </p>
+                    <div class="project-footer">
+                        <span class="project-status"><i class="fas fa-check-circle"></i> Completed</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h4 class="project-card-title">
+                        <i class="fas fa-file-invoice"></i>
+                        GenAI Invoice Generator & Print System
+                    </h4>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">PDF Generation</span>
+                        <span class="tech-tag">Automation</span>
+                    </div>
+                    <p class="project-card-description">
+                        Automated document generation system with validation and formatting capabilities. Implemented
+                        PDF generation and printing functionality with error handling. Designed user-friendly interface
+                        for efficient invoice creation and management.
+                    </p>
+                    <div class="project-footer">
+                        <span class="project-status"><i class="fas fa-check-circle"></i> Completed</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <h2 class="section-heading">Interested in Working Together?</h2>
+                <p class="cta-text">I'm always open to discussing new projects and opportunities</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                    <a href="assets/Nikita_Dalvi_Resume2026.pdf" download="Nikita_Dalvi_Resume.pdf"
+                        class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Nikita Dalvi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
